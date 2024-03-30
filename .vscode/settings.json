@@ -1,3 +1,4 @@
 {
-    "C_Cpp.default.compilerPath": "/home/sergio/.platformio/packages/toolchain-atmelavr/bin/avr-gcc"
+    "C_Cpp.default.compilerPath": "/home/sergio/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+    "cmake.sourceDirectory": "/media/NAS/admin/Reparación 3D/Firmware/SunHokey_S508/buildroot/share/cmake"
 }

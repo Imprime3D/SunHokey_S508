@@ -622,9 +622,14 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp 26.14
+    /*#define DEFAULT_Kp 26.14
     #define DEFAULT_Ki 2.80
-    #define DEFAULT_Kd 61.04
+    #define DEFAULT_Kd 61.04*/
+
+    //Sunhokey 508
+    #define DEFAULT_Kp 31.4496
+    #define DEFAULT_Ki 2.5940
+    #define DEFAULT_Kd 95.3238
   #endif
 #endif
 
@@ -705,9 +710,14 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 71.54
-  #define DEFAULT_bedKi 8.56
-  #define DEFAULT_bedKd 398.51
+  /*#define DEFAULT_bedKp 71.54
+  #define DEFAULT_bedKi 8.568
+  #define DEFAULT_bedKd 398.51*/
+
+  //Sunhokey 508
+  #define DEFAULT_bedKp 68.1798
+  #define DEFAULT_bedKi 6.3532
+  #define DEFAULT_bedKd 487.7807
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
